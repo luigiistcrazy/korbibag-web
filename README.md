@@ -1,48 +1,37 @@
-# Astro Starter Kit: Basics
+# Quellcode der KorbiBag Website
+
+In diesem Repository kann der Quellcode zu der Website des KAG-Schülerunternehmens [**`KorbiBag`**](https://korbibag.de) gefunden werden.
+
+Gebaut mit [**`Astro`**](https://astro.build) und [**`Vuejs`**](https://vuejs.org).
+
+## Build from source
+
+### Vorraussetzungen:
+
+[**Node.js**](https://nodejs.org/en/download) - `v18.17.1`, `v20.3.0`, `v22.0.0`, oder höher (`v19` und `v21` werden nicht unterstützt).
+
+**Beliebiger Text editor** - Bspw. [**Neovim**](https://github.com/neovim/neovim) mit der [**vim-astro**](https://github.com/wuelnerdotexe/vim-astro) extension. Astro Documentation Referenz [**hier**](https://docs.astro.build/de/editor-setup/).
+
+**Befehlszeile** - Astro wird durch ein CLI bedient.
+
+### Repository klonen:
 
 ```sh
-bun create astro@latest -- --template basics
+git clone git@github.com:luigiistcrazy/korbibag-web.git
+cd korbibag-web
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+### Pakete installieren:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+npm/pnpm/yarn/bun install
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+### Development server (vite)
 
-## 🧞 Commands
+```sh
+# Starte Development server
+npm/pnpm/yarn/bun run dev
+```
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Für alles weitere bitte an die offizielle [**`Astro Documentation`**](https://docs.astro.build/de/develop-and-build/) wenden.
