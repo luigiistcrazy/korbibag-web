@@ -2,7 +2,7 @@
 
 In diesem Repository kann der Quellcode zu der Website des KAG-Schülerunternehmens [**`KorbiBag`**](https://korbibag.de) gefunden werden.
 
-Gebaut mit [**`Astro`**](https://astro.build) und [**`Vuejs`**](https://vuejs.org).
+Gebaut mit [**`Astro`**](https://astro.build) und [**`Svelte`**](https://svelte.dev).
 
 ## Build from source
 
